@@ -1,5 +1,5 @@
 USE employee_trackerDB;
-
+-- departments
 INSERT INTO department (name)
 VALUES ("Sales");
 
@@ -12,7 +12,7 @@ VALUES ("Finance");
 INSERT INTO department (name)
 VALUES ("Legal");
 
-
+-- roles
 INSERT INTO role (title, salary, department_id)
 VALUES ("Sales Lead", 100000, 1 );
 
@@ -37,6 +37,8 @@ VALUES ("Legal Team Lead", 250000, 4 );
 INSERT INTO role (title, salary, department_id)
 VALUES ("Lawyer", 190000, 4 );
 
+
+-- employees 
 INSERT INTO employee (first_name, last_name, role_id)
 VALUES ("Justin", "Timberlake", 1);
 INSERT INTO employee (first_name, last_name, role_id)
@@ -61,3 +63,11 @@ INSERT INTO employee (first_name, last_name, role_id)
 VALUES ("Kevin", "Richardson", 6);
 INSERT INTO employee (first_name, last_name, role_id)
 VALUES ("Brian", "Littrell", 8);
+INSERT INTO employee (first_name, last_name, role_id)
+VALUES ("Melanie", "Brown", 2);
+INSERT INTO employee (first_name, last_name, role_id)
+VALUES ("Melanie", "Chisholm", 4);
+INSERT INTO employee (first_name, last_name, role_id)
+VALUES ("Emma", "Bunton", 6);
+INSERT INTO employee (first_name, last_name, role_id)
+VALUES ("Victoria", "Beckham", 8);
